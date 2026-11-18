@@ -1,0 +1,1 @@
+Put your photographs in this folder, then list their exact filenames in ../script.js.

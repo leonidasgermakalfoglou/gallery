@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="gallery" aria-label="Photograph gallery">
+    <div class="image-stage">
+      <img id="gallery-image" alt="Gallery photograph" hidden>
+    </div>
+
+    <nav class="controls" id="gallery-controls" aria-label="Gallery navigation" hidden>
+      <button id="previous" type="button" aria-label="Previous photograph">←</button>
+      <button id="next" type="button" aria-label="Next photograph">→</button>
+    </nav>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
